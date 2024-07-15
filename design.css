@@ -4,7 +4,8 @@
     outline: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: rgb(228, 249, 249);
 }
 
@@ -20,12 +21,29 @@ body{
     padding: 20px;
     height: 100px;
     width: 150px;
+
     float: left;
+    /* Atar maddome amder 
+first of all nav tag te dhore 
+ navber kaje kora hoiche */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+
 
 }
 
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(19, 10, 1);
+}
 
-.header ul li {
+
+.header nav ul li {
     padding: 20px;
     padding-left: 20px;
     padding-top: 50px;
@@ -33,13 +51,24 @@ body{
     padding-right: 20px;
     width: 120px;
     height: 10px;
-    float: right;
+    float: left;
     display: inline;
+    display: flex;
     font-size: 20px;
     font-style: italic;
-    text-transform: unset;
+    list-style-type: none;
+
+
 
 }
+
+nav ul li:hover {
+    color: rgb(195, 26, 93);
+    transition: .3s;
+
+}
+
+/*akhne navber kaje ses hoiche design*/
 
 .banner {
 
@@ -75,7 +104,7 @@ body{
     font-size: 30px;
     padding: 20px;
     text-transform: uppercase;
-    
+
 
 
 
@@ -89,7 +118,7 @@ body{
     padding-left: 40px;
     font: bolder;
     float: left;
-    text-align:justify;
+    text-align: justify;
 }
 
 .about-image {
@@ -104,56 +133,60 @@ body{
 
     size: 300px;
 }
-.table-create{
+
+.table-create {
     float: left;
     width: 1190px;
 }
-.table-create table{
+
+.table-create table {
     width: 500px;
 }
-.table-create table td{
+
+.table-create table td {
     padding-left: 20px;
     text-align: center;
     padding-top: 5px;
 }
 
-.skills h1{
-    float:left;
+.skills h1 {
+    float: left;
     width: 1190px;
     height: 50px;
     text-align: center;
     font-size: 30px;
     padding: 10px;
     padding-bottom: 20px;
-    
+
     background-color: rgb(193, 197, 200);
     margin: 20px;
     text-transform: uppercase;
-   
+
 }
-.skills div{
+
+.skills div {
     float: left;
     padding: 20px;
     padding-inline: 30px;
-    padding-left:100px;
+    padding-left: 100px;
     font-size: 30px;
     text-transform: uppercase;
 }
-.programming-skills h2{
+
+.programming-skills h2 {
     font-size: 30px;
     color: rgb(74, 7, 7);
     font-style: italic;
 
 }
-.programming-skills ul li{
+
+.programming-skills ul li {
     font-size: 30px;
     padding-left: 50px;
 }
-.computer-Basic h2{
+
+.computer-Basic h2 {
     font-size: 30px;
-    color:  rgb(74, 7, 7);
+    color: rgb(74, 7, 7);
     font-style: italic;
 }
-
-
-
